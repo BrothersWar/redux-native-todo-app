@@ -42,23 +42,23 @@ const TodoApp = ({ todo_list, addTodo, deleteTodo }) => {
     <View style={styles.container}>
       <Card title="Card Title">
         <Text style={styles.paragraph}>
-          ToDo App with React Native and Redux
+          Таск менеджер
         </Text>
       </Card>
       <Spacer />
       <Card>
         <Card.Content>
-          <Title>Add ToDo Here</Title>
+          <Title>Задача</Title>
 
           <TextInput
             mode="outlined"
-            label="Task"
+            label="Задача"
             value={task}
             onChangeText={(task) => setTask(task)}
           />
           <Spacer />
           <Button mode="contained" onPress={handleAddTodo}>
-            Add Task
+            Добавить задачу
           </Button>
         </Card.Content>
       </Card>
@@ -71,7 +71,7 @@ const TodoApp = ({ todo_list, addTodo, deleteTodo }) => {
             <>
               <Card>
                 <Card.Title
-                  title={`Task#${item.id}`}
+                  title={`Задача#${item.id}`}
                   left={(props) => (
                     <Icon name="tasks" size={24} color="black" />
                   )}

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "redux-react-native-sample-simple-todo",
+    "name": "redux-native-todo-app",
     "slug": "snack-d3a66692-bfc1-44f5-96f4-b163d5aef2d1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.brotherswar.todo_react"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b2efa483-8cd1-4990-b097-0d50e84578c2"
+      }
     }
   }
 }
